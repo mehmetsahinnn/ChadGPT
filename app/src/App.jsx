@@ -3,7 +3,7 @@ import './App.css'
 import '@chatscope/chat-ui-kit-styles/dist/default/styles.min.css';
 import { MainContainer, ChatContainer, MessageList, Message, MessageInput, TypingIndicator } from '@chatscope/chat-ui-kit-react';
 
-const API_KEY = "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"; //You must use your own API KEY otherwise it is typing forever. 
+const API_KEY = "YOUR_API_KEY"; //You must use your own API KEY otherwise it is typing forever. 
 
 const systemMessage = {
   "role": "system", "content": "Explain things like you would to a 10 year old learning how to code."
